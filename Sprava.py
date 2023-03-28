@@ -27,22 +27,22 @@ Vyberte si akci:
 #  -------------------- Přidání nového pojišťeného
         if odpoved == "1":
             self.__pridat_do_seznamu()
-            input("\nZáznam byl vložen.. Pokračujte libovolnou klávesou...")
+            input("\nZáznam byl vložen.. Pokračujte klávesou ENTER...")
             return True
 #  -------------------- Výpis pojišťených
         if odpoved == "2":
             self.Pojistenci.vypsat()
-            input("\nPokračujte libovolnou klávesou...")
+            input("\nPokračujte Pokračujte klávesou ENTER...")
             return True
 #  -------------------- Vyhledání pojišťeného
         if odpoved == "3":
             self.__vyhledavani()
-            input("\nPokračujte libovolnou klávesou...")
+            input("\nPokračujte Pokračujte klávesou ENTER...")
             return True
 #  -------------------- Smazání pojišťeného
         if odpoved == "4":
             self.__smazat_ze_seznamu()
-            input("\nPokračujte libovolnou klávesou...")
+            input("\nPokračujte Pokračujte klávesou ENTER...")
             return True
 #  -------------------- Ukončení "programu" 
         if odpoved == "5":
@@ -50,7 +50,7 @@ Vyberte si akci:
             return False
 #  -------------------- Hláška v případě že zadám špatné číslo akce
         else:
-            input("\nŠpatné zadání, prosím zvolte akci v rozmezí 1-5.\nPokračujte libovolnou klávesou...")
+            input("\nŠpatné zadání, prosím zvolte akci v rozmezí 1-5.\nPokračujte Pokračujte klávesou ENTER...")
             return True
 
 
